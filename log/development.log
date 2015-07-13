@@ -1,0 +1,2536 @@
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 10:49:17 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1092ms (Views: 1083.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 10:49:18 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 10:49:18 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 10:49:18 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 10:49:18 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 10:49:18 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 10:49:18 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 10:49:18 +0530
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 10:53:30 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog_posts/logo.png" for 127.0.0.1 at 2015-07-13 10:53:30 +0530
+
+AbstractController::ActionNotFound (The action 'show' could not be found for BlogPostsController):
+  actionpack (4.2.3) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (37.6ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 10:53:34 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog_posts/logo.png" for 127.0.0.1 at 2015-07-13 10:53:35 +0530
+
+AbstractController::ActionNotFound (The action 'show' could not be found for BlogPostsController):
+  actionpack (4.2.3) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (30.6ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 10:54:05 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 10:54:05 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 10:54:05 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 10:54:05 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 10:54:05 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 10:54:05 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 10:54:05 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 10:54:05 +0530
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:02:15 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 87ms (Views: 85.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 11:02:15 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 11:02:15 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 11:02:15 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 11:02:15 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 11:02:15 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 11:02:15 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 11:02:15 +0530
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:03:12 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 11:03:12 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 11:03:12 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 11:03:12 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 11:03:12 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 11:03:12 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 11:03:12 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 11:03:12 +0530
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:04:30 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 11:04:30 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 11:04:30 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 11:04:30 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 11:04:30 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 11:04:30 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 11:04:30 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 11:04:30 +0530
+
+
+Started POST "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:06:24 +0530
+
+ActionController::RoutingError (No route matches [POST] "/blog_posts/new"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.3ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:10:48 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:16:07 +0530
+
+ActionController::RoutingError (No route matches [POST] "/blog_posts/new"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (31.8ms)
+
+
+Started POST "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:16:18 +0530
+
+ActionController::RoutingError (No route matches [POST] "/blog_posts/new"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.3ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:17:58 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 11:17:59 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 11:17:59 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 11:17:59 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 11:17:59 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 11:17:59 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 11:17:59 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 11:17:59 +0530
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 11:18:01 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0S8Zzvc90hInaa5CQC6ZP96f53iAul4xR8e8fne7U2GQ3M72yvTpPguWIwgbF+8GM5js2h3KwxnIurXY5LiYDQ==", "blog_post"=>{"title"=>"", "text"=>""}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 11:18:08 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0S8Zzvc90hInaa5CQC6ZP96f53iAul4xR8e8fne7U2GQ3M72yvTpPguWIwgbF+8GM5js2h3KwxnIurXY5LiYDQ==", "blog_post"=>{"title"=>"", "text"=>""}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 11:19:20 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0S8Zzvc90hInaa5CQC6ZP96f53iAul4xR8e8fne7U2GQ3M72yvTpPguWIwgbF+8GM5js2h3KwxnIurXY5LiYDQ==", "blog_post"=>{"title"=>"ajkshfdjahs", "text"=>"kajsdfjksndcvjnsdjkcvnsdjkcnsjdnc jkwefhjse wiej hjwwjr wkj "}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 11:25:15 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0S8Zzvc90hInaa5CQC6ZP96f53iAul4xR8e8fne7U2GQ3M72yvTpPguWIwgbF+8GM5js2h3KwxnIurXY5LiYDQ==", "blog_post"=>{"title"=>"ajkshfdjahs", "text"=>"kajsdfjksndcvjnsdjkcvnsdjkcnsjdnc jkwefhjse wiej hjwwjr wkj "}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:25:22 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:19: syntax error, unexpected ..., expecting ']'
+...Lisbon', 1], ['Madrid', 2], ...]) );@output_buffer.safe_appe...
+...                               ^
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:24: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/blog_posts/new.html.erb:19: syntax error, unexpected ..., expecting ']'
+  app/views/blog_posts/new.html.erb:24: syntax error, unexpected keyword_end, expecting ')'
+  app/views/blog_posts/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/blog_posts/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.2ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:28:17 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:19: syntax error, unexpected tCONSTANT, expecting ')'
+...%= options_for_select([['Lisbon', 1], ['Madrid', 2], ...]) )...
+...                               ^
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:19: syntax error, unexpected tCONSTANT, expecting ')'
+...select([['Lisbon', 1], ['Madrid', 2], ...]) );@output_buffer...
+...                               ^
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:19: syntax error, unexpected $undefined, expecting ')'
+...);@output_buffer.safe_append='\') %>
+...                               ^
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:24: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/blog_posts/new.html.erb:19: syntax error, unexpected tCONSTANT, expecting ')'
+  app/views/blog_posts/new.html.erb:19: syntax error, unexpected tCONSTANT, expecting ')'
+  app/views/blog_posts/new.html.erb:19: syntax error, unexpected $undefined, expecting ')'
+  app/views/blog_posts/new.html.erb:24: syntax error, unexpected keyword_end, expecting ')'
+  app/views/blog_posts/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/blog_posts/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.2ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:30:27 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:20: syntax error, unexpected ..., expecting ']'
+...Lisbon', 1], ['Madrid', 2], ...]) );@output_buffer.safe_appe...
+...                               ^
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:31: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/blog_posts/new.html.erb:20: syntax error, unexpected ..., expecting ']'
+  app/views/blog_posts/new.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+  app/views/blog_posts/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/blog_posts/new.html.erb:31: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.3ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:31:04 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 11:31:04 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 11:31:04 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 11:31:04 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 11:31:04 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 11:31:04 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 11:31:04 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 11:31:04 +0530
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:31:27 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:20: syntax error, unexpected tCONSTANT, expecting ')'
+...%= options_for_select([['Lisbon', 1], ['Madrid', 2]]) );@out...
+...                               ^
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:20: syntax error, unexpected tCONSTANT, expecting ')'
+...select([['Lisbon', 1], ['Madrid', 2]]) );@output_buffer.safe...
+...                               ^
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:21: syntax error, unexpected $undefined, expecting ')'
+    \')%>
+     ^
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:30: syntax error, unexpected keyword_ensure, expecting ')'
+/home/infibeam/Documents/blog_assignment/app/views/blog_posts/new.html.erb:32: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/blog_posts/new.html.erb:20: syntax error, unexpected tCONSTANT, expecting ')'
+  app/views/blog_posts/new.html.erb:20: syntax error, unexpected tCONSTANT, expecting ')'
+  app/views/blog_posts/new.html.erb:21: syntax error, unexpected $undefined, expecting ')'
+  app/views/blog_posts/new.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+  app/views/blog_posts/new.html.erb:30: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/blog_posts/new.html.erb:32: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.0ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:31:57 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 11:31:57 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 11:31:57 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 11:31:57 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 11:31:57 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 11:31:57 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 11:31:57 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 11:31:57 +0530
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:36:23 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 11:36:23 +0530
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 11:36:23 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 11:36:23 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 11:36:23 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 11:36:23 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 11:36:23 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 11:36:23 +0530
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:42:03 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 11:42:03 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 11:42:03 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 11:42:03 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 11:42:03 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 11:42:03 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 11:42:03 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 11:42:03 +0530
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:45:21 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `empty?' for nil:NilClass):
+    16:     <%= f.text_area :text %>
+    17:   </p>
+    18:   <p>
+    19:     <%= select(:person, [['politics',1], ['sports',2], ['entertainment',3], ['technology',4], ['health',5] ]) %>
+    20:   </p>
+    21:   <p>
+    22:     <%= f.submit %>
+  app/views/blog_posts/new.html.erb:19:in `block in _app_views_blog_posts_new_html_erb__2998373693132240473_70285178418100'
+  app/views/blog_posts/new.html.erb:8:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285178418100'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.1ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:45:57 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 11:45:57 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 11:45:57 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 11:45:57 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 11:45:57 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 11:45:57 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 11:45:57 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 11:45:57 +0530
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 11:47:10 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rd0MTJr7KEpdAhr8j6Botepc9u8a6PEw3j6cKC9e1XYELtt0pzITZnH9l7bUmR6MB1v9TYeYbBhRQ5WOvF0eGg==", "blog_post"=>{"title"=>"", "text"=>""}, "category"=>{"city_id"=>"3"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:48:39 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 11:48:39 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 11:48:39 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 11:48:39 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 11:48:39 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 11:48:39 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 11:48:39 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 11:48:39 +0530
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:48:48 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 11:49:28 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H3rOYs96/EGLhziHn+u4vwszCcsanQf2RzBpxexAYdVeiRla8rPHbad4tc3E0s6G5jQCaYftmt7ITWBjf0OquQ==", "blog_post"=>{"title"=>"", "text"=>"", "category"=>"1"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 11:49:32 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H3rOYs96/EGLhziHn+u4vwszCcsanQf2RzBpxexAYdVeiRla8rPHbad4tc3E0s6G5jQCaYftmt7ITWBjf0OquQ==", "blog_post"=>{"title"=>"", "text"=>"", "category"=>"3"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:54:13 +0530
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.3) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.3) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.7ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 11:54:23 +0530
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.3) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.3) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.5ms)
+  [1m[36m (107.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (98.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateBlogPosts (20150713062323)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "blog_posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "post" text, "category" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150713062323"]]
+  [1m[35m (187.1ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 12:08:26 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 12:08:26 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 12:08:26 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 12:08:26 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 12:08:27 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 12:08:27 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 12:08:27 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 12:08:27 +0530
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 12:12:45 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:12:47 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ma9hiGn2eaqlvIW5noXBao0JPdIMegbmHG/kbJ8KEkBwXLawVD9CholDCPPFvLdTYA42cJEKm86TEu3KDAnZLA==", "blog_post"=>{"title"=>"", "text"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Unpermitted parameter: text
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:12:53 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ma9hiGn2eaqlvIW5noXBao0JPdIMegbmHG/kbJ8KEkBwXLawVD9CholDCPPFvLdTYA42cJEKm86TEu3KDAnZLA==", "blog_post"=>{"title"=>"", "text"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Unpermitted parameter: text
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:13:45 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ma9hiGn2eaqlvIW5noXBao0JPdIMegbmHG/kbJ8KEkBwXLawVD9CholDCPPFvLdTYA42cJEKm86TEu3KDAnZLA==", "blog_post"=>{"title"=>"bbb", "text"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Unpermitted parameter: text
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 12:14:12 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:14:14 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XeV+wvb8fUxw9t5C4H8Wde8lgfqF31zXeiy99SZwwcccFqn6yzVGYFwJUwi7RmBMAiKKWBivwf/1UbRTtXMKqw==", "blog_post"=>{"title"=>"", "text"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Unpermitted parameter: text
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:14:33 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XeV+wvb8fUxw9t5C4H8Wde8lgfqF31zXeiy99SZwwcccFqn6yzVGYFwJUwi7RmBMAiKKWBivwf/1UbRTtXMKqw==", "blog_post"=>{"title"=>"", "text"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:14:37 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XeV+wvb8fUxw9t5C4H8Wde8lgfqF31zXeiy99SZwwcccFqn6yzVGYFwJUwi7RmBMAiKKWBivwf/1UbRTtXMKqw==", "blog_post"=>{"title"=>"", "text"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:14:55 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XeV+wvb8fUxw9t5C4H8Wde8lgfqF31zXeiy99SZwwcccFqn6yzVGYFwJUwi7RmBMAiKKWBivwf/1UbRTtXMKqw==", "blog_post"=>{"title"=>"", "text"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:15:19 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XeV+wvb8fUxw9t5C4H8Wde8lgfqF31zXeiy99SZwwcccFqn6yzVGYFwJUwi7RmBMAiKKWBivwf/1UbRTtXMKqw==", "blog_post"=>{"title"=>"", "text"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:15:24 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XeV+wvb8fUxw9t5C4H8Wde8lgfqF31zXeiy99SZwwcccFqn6yzVGYFwJUwi7RmBMAiKKWBivwf/1UbRTtXMKqw==", "blog_post"=>{"title"=>"", "text"=>"", "category"=>"entertainment"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:16:15 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XeV+wvb8fUxw9t5C4H8Wde8lgfqF31zXeiy99SZwwcccFqn6yzVGYFwJUwi7RmBMAiKKWBivwf/1UbRTtXMKqw==", "blog_post"=>{"title"=>"", "text"=>"", "category"=>"entertainment"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:25:30 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XeV+wvb8fUxw9t5C4H8Wde8lgfqF31zXeiy99SZwwcccFqn6yzVGYFwJUwi7RmBMAiKKWBivwf/1UbRTtXMKqw==", "blog_post"=>{"title"=>"ABC", "text"=>"XYZ", "category"=>"technology"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Unpermitted parameter: text
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "blog_posts" ("title", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "ABC"], ["category", "technology"], ["created_at", "2015-07-13 06:55:30.264411"], ["updated_at", "2015-07-13 06:55:30.264411"]]
+  [1m[35m (171.7ms)[0m  commit transaction
+Redirected to 
+Completed 500 Internal Server Error in 187ms (Views: 0.5ms | ActiveRecord: 173.3ms)
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/blog_posts_controller.rb:10:in `create'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.9ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:26:01 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XeV+wvb8fUxw9t5C4H8Wde8lgfqF31zXeiy99SZwwcccFqn6yzVGYFwJUwi7RmBMAiKKWBivwf/1UbRTtXMKqw==", "blog_post"=>{"title"=>"ABC", "text"=>"XYZ", "category"=>"technology"}, "commit"=>"Save Blog post"}
+Unpermitted parameter: text
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "blog_posts" ("title", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "ABC"], ["category", "technology"], ["created_at", "2015-07-13 06:56:01.872842"], ["updated_at", "2015-07-13 06:56:01.872842"]]
+  [1m[36m (95.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/blog_posts/2
+Completed 302 Found in 107ms (ActiveRecord: 95.9ms)
+
+
+Started GET "/blog_posts/2" for 127.0.0.1 at 2015-07-13 12:26:01 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered blog_posts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 26.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 12:26:02 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 12:26:02 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 12:26:02 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 12:26:02 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 12:26:02 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 12:26:02 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 12:26:02 +0530
+
+
+Started GET "/blog_posts/1" for 127.0.0.1 at 2015-07-13 12:26:23 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered blog_posts/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts/" for 127.0.0.1 at 2015-07-13 12:26:29 +0530
+
+AbstractController::ActionNotFound (The action 'index' could not be found for BlogPostsController):
+  actionpack (4.2.3) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.4ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 12:26:34 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:26:48 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xLaMfIBt3SrXYlZYutFU4+zcVKcvlBpDmbHDaUCCiPyFRVtEvaTmBvud2xLh6CLaAdtfBbLkh2sWzMrP04FDkA==", "blog_post"=>{"title"=>"ggggggghhhhh", "text"=>"jjjjjjjjjjjj", "category"=>"politics"}, "commit"=>"Save Blog post"}
+Unpermitted parameter: text
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "blog_posts" ("title", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "ggggggghhhhh"], ["category", "politics"], ["created_at", "2015-07-13 06:56:48.425295"], ["updated_at", "2015-07-13 06:56:48.425295"]]
+  [1m[35m (166.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/blog_posts/3
+Completed 302 Found in 171ms (ActiveRecord: 166.8ms)
+
+
+Started GET "/blog_posts/3" for 127.0.0.1 at 2015-07-13 12:26:48 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBlogPost Load (0.1ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered blog_posts/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 12:26:56 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 12:28:13 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 12:28:31 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bkmDSrDRLHLI0750GGy1FriEZNIcgqUkTFhBDQ7E60MvulRyjRgXXuQsMz5DVcMvVYNvcIHyOAzDJUirnccgLw==", "blog_post"=>{"title"=>"111111111", "post"=>"jjjjjjjjjjjjjj", "category"=>"health"}, "commit"=>"Save Blog post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "blog_posts" ("title", "post", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "111111111"], ["post", "jjjjjjjjjjjjjj"], ["category", "health"], ["created_at", "2015-07-13 06:58:31.949931"], ["updated_at", "2015-07-13 06:58:31.949931"]]
+  [1m[35m (178.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/blog_posts/4
+Completed 302 Found in 182ms (ActiveRecord: 178.7ms)
+
+
+Started GET "/blog_posts/4" for 127.0.0.1 at 2015-07-13 12:28:32 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBlogPost Load (0.1ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered blog_posts/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/blog_posts/3" for 127.0.0.1 at 2015-07-13 12:28:38 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered blog_posts/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 42ms (Views: 39.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts/" for 127.0.0.1 at 2015-07-13 12:35:47 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[36mBlogPost Load (0.4ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts"[0m
+  Rendered blog_posts/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/blog_posts/" for 127.0.0.1 at 2015-07-13 12:41:27 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT "blog_posts".* FROM "blog_posts"
+  Rendered blog_posts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 12:41:29 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:38:18 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"blog_posts"} missing required keys: [:id]):
+    22:     <%= f.submit %>
+    23:   </p>
+    24: <% end %>
+    25: <%= link_to 'Back', blog_post_path %>
+    26: </body>
+    27: </html>
+  app/views/blog_posts/new.html.erb:25:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285181798740'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (39.1ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:38:18 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"blog_posts"} missing required keys: [:id]):
+    22:     <%= f.submit %>
+    23:   </p>
+    24: <% end %>
+    25: <%= link_to 'Back', blog_post_path %>
+    26: </body>
+    27: </html>
+  app/views/blog_posts/new.html.erb:25:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285171551160'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.1ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:38:22 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"blog_posts"} missing required keys: [:id]):
+    22:     <%= f.submit %>
+    23:   </p>
+    24: <% end %>
+    25: <%= link_to 'Back', blog_post_path %>
+    26: </body>
+    27: </html>
+  app/views/blog_posts/new.html.erb:25:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285171551160'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.4ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:39:26 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"blog_posts"} missing required keys: [:id]):
+    22:     <%= f.submit %>
+    23:   </p>
+    24: <% end %>
+    25: <%= link_to 'Back', blog_post_path %>
+    26: </body>
+    27: </html>
+  app/views/blog_posts/new.html.erb:25:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285171551160'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.0ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:40:58 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 13:40:58 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 13:40:58 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 13:40:58 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 13:40:58 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 13:40:58 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 13:40:58 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 13:40:58 +0530
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 13:41:00 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[36mBlogPost Load (0.3ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts"[0m
+  Rendered blog_posts/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 47ms (Views: 42.4ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 13:41:05 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gcg1wroDhgOMtQXY3aL5lTITPYp6ifQkQ/HJFrMCS7bAO+L6h8q9L6BKiJKGm4+s3xQ2KOf5aQzMjMCwIAGA2g==", "blog_post"=>{"title"=>"", "post"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  Rendered blog_posts/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 42ms (Views: 35.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 13:41:09 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wYQUr2pXu3Jsu3MVoXzWKQ635p4TnkwNGoTNwbYX9cyAd8OXV56AXkBE/l/6RaAQ47DtPI7u0SWV+cRnJRQ+oA==", "blog_post"=>{"title"=>"", "post"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered blog_posts/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 43ms (Views: 38.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 13:42:35 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wYQUr2pXu3Jsu3MVoXzWKQ635p4TnkwNGoTNwbYX9cyAd8OXV56AXkBE/l/6RaAQ47DtPI7u0SWV+cRnJRQ+oA==", "blog_post"=>{"title"=>"", "post"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered blog_posts/new.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+     6: <body>
+     7: <div>Create a new post</div>
+     8: <p>
+     9:   <% if @article.errors.any? %>
+    10:     <div id="error_explanation">
+    11:       <h2>
+    12:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  app/views/blog_posts/new.html.erb:9:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285171523620'
+  app/controllers/blog_posts_controller.rb:17:in `create'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.7ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 13:43:49 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wYQUr2pXu3Jsu3MVoXzWKQ635p4TnkwNGoTNwbYX9cyAd8OXV56AXkBE/l/6RaAQ47DtPI7u0SWV+cRnJRQ+oA==", "blog_post"=>{"title"=>"", "post"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered blog_posts/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 39ms (Views: 35.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 13:43:49 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 13:43:49 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 13:43:49 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 13:43:49 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 13:43:49 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 13:43:49 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 13:43:49 +0530
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 13:45:57 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35mBlogPost Load (0.4ms)[0m  SELECT "blog_posts".* FROM "blog_posts"
+  Rendered blog_posts/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 39ms (Views: 34.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:46:00 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+     6: <body>
+     7: <div>Create a new post</div>
+     8: <p>
+     9:   <% if @blog_post.errors.any? %>
+    10:     <div id="error_explanation">
+    11:       <h2>
+    12:         <%= pluralize(@blog_post.errors.count, "error") %> prohibited
+  app/views/blog_posts/new.html.erb:9:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285176430440'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (31.7ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:46:00 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+     6: <body>
+     7: <div>Create a new post</div>
+     8: <p>
+     9:   <% if @blog_post.errors.any? %>
+    10:     <div id="error_explanation">
+    11:       <h2>
+    12:         <%= pluralize(@blog_post.errors.count, "error") %> prohibited
+  app/views/blog_posts/new.html.erb:9:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285178315160'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.4ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:46:10 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+     6: <body>
+     7: <div>Create a new post</div>
+     8: <p>
+     9:   <% if @blog_post.errors.any? %>
+    10:     <div id="error_explanation">
+    11:       <h2>
+    12:         <%= pluralize(@blog_post.errors.count, "error") %> prohibited
+  app/views/blog_posts/new.html.erb:9:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285178315160'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.4ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:46:20 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+     6: <body>
+     7: <div>Create a new post</div>
+     8: <p>
+     9:   <% if @blog_post.errors.any? %>
+    10:     <div id="error_explanation">
+    11:       <h2>
+    12:         <%= pluralize(@blog_post.errors.count, "error") %> prohibited
+  app/views/blog_posts/new.html.erb:9:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285178315160'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.1ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:48:05 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+     6: <body>
+     7: <div>Create a new post</div>
+     8: <p>
+     9:   <% if @blog_post.errors.any? %>
+    10:     <div id="error_explanation">
+    11:       <h2>
+    12:         <%= pluralize(@blog_post.errors.count, "error") %> prohibited
+  app/views/blog_posts/new.html.erb:9:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285178315160'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.7ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:48:10 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+     6: <body>
+     7: <div>Create a new post</div>
+     8: <p>
+     9:   <% if @blog_post.errors.any? %>
+    10:     <div id="error_explanation">
+    11:       <h2>
+    12:         <%= pluralize(@blog_post.errors.count, "error") %> prohibited
+  app/views/blog_posts/new.html.erb:9:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285178315160'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (27.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (41.9ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:48:18 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+     6: <body>
+     7: <div>Create a new post</div>
+     8: <p>
+     9:   <% if @blog_post.errors.any? %>
+    10:     <div id="error_explanation">
+    11:       <h2>
+    12:         <%= pluralize(@blog_post.errors.count, "error") %> prohibited
+  app/views/blog_posts/new.html.erb:9:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285178315160'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.1ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:49:59 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 40ms (Views: 30.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 13:49:59 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 13:49:59 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 13:49:59 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 13:49:59 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 13:49:59 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 13:49:59 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 13:49:59 +0530
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 13:50:01 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"neX8+V306+w6+x1yEgFbdnv86ltvcAXm30wRrTcgWtrcFivBYD3QwBYEkDhJOC1Plvvh+fIAmM5QMRgLpCORtg==", "blog_post"=>{"title"=>"", "post"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  Rendered blog_posts/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 42ms (Views: 35.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 13:50:14 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[36mBlogPost Load (0.3ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts"[0m
+  Rendered blog_posts/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 35ms (Views: 30.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 13:50:16 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts" for 127.0.0.1 at 2015-07-13 13:50:18 +0530
+Processing by BlogPostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KEU90Z6n7viSafq7aXn1zkeF00lqCwBXWpoFWWAxtb1pturpo27V1L6Wd/EyQIP3qoLY6/d7nX/V5wz/8zJ+0Q==", "blog_post"=>{"title"=>"", "post"=>"", "category"=>"politics"}, "commit"=>"Save Blog post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered blog_posts/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 39ms (Views: 32.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts/edit/1" for 127.0.0.1 at 2015-07-13 14:02:19 +0530
+
+ActionController::RoutingError (No route matches [GET] "/blog_posts/edit/1"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/infibeam/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (30.1ms)
+
+
+Started GET "/blog_posts/1/edit" for 127.0.0.1 at 2015-07-13 14:03:30 +0530
+Processing by BlogPostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered blog_posts/edit.html.erb within layouts/application (15.2ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (undefined method `article_path' for #<#<Class:0x007fd91590bac8>:0x007fd91590af60>):
+    1: <h1>Editing Blog Post</h1>
+    2:  
+    3: <%= form_for :blog_post, url: article_path(@blog_post), method: :patch do |f| %>
+    4:  
+    5:   <% if @blog_post.errors.any? %>
+    6:     <div id="error_explanation">
+  app/views/blog_posts/edit.html.erb:3:in `_app_views_blog_posts_edit_html_erb__3756463776615627812_70285173213520'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (30.9ms)
+
+
+Started GET "/blog_posts/1/edit" for 127.0.0.1 at 2015-07-13 14:04:02 +0530
+Processing by BlogPostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered blog_posts/edit.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `text' for #<BlogPost:0x007fd915bfe870>):
+    23:  
+    24:   <p>
+    25:     <%= f.label :text %><br>
+    26:     <%= f.text_area :text %>
+    27:   </p>
+    28:  
+    29:   <p>
+  app/views/blog_posts/edit.html.erb:26:in `block in _app_views_blog_posts_edit_html_erb__3756463776615627812_70285174760600'
+  app/views/blog_posts/edit.html.erb:3:in `_app_views_blog_posts_edit_html_erb__3756463776615627812_70285174760600'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.5ms)
+
+
+Started GET "/blog_posts/1/edit" for 127.0.0.1 at 2015-07-13 14:04:33 +0530
+Processing by BlogPostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBlogPost Load (0.1ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered blog_posts/edit.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/blog_posts/5/edit" for 127.0.0.1 at 2015-07-13 14:04:41 +0530
+Processing by BlogPostsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mBlogPost Load (0.1ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 5]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::RecordNotFound (Couldn't find BlogPost with 'id'=5):
+  app/controllers/blog_posts_controller.rb:22:in `edit'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.5ms)
+
+
+Started GET "/blog_posts/4/edit" for 127.0.0.1 at 2015-07-13 14:04:47 +0530
+Processing by BlogPostsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered blog_posts/edit.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 50ms (Views: 47.9ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/blog_posts/4" for 127.0.0.1 at 2015-07-13 14:09:52 +0530
+Processing by BlogPostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jmhVEuiOKlZa7UWE5ICEIO2Z+3EPduHvxCSRLLBuKObPm4Iq1UcRenYSyM6/ufIZAJ7w05IGfMdLWZiKI23jig==", "blog_post"=>{"title"=>"111111111", "post"=>"jjjjjjjjjjjjjj1"}, "commit"=>"Save Blog post", "id"=>"4"}
+  [1m[36mBlogPost Load (0.1ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered blog_posts/edit.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 40ms (Views: 28.5ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/blog_posts/4" for 127.0.0.1 at 2015-07-13 14:10:04 +0530
+Processing by BlogPostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AnioFa3DoJbENh2aurnFAFGSH1juCpsckTYeveWjBRtDi38tkAqbuujJkNDhgLM5vJUU+nN6BjQeSxcbdqDOdw==", "blog_post"=>{"title"=>"111111111", "post"=>"jjjjjjjjjjjjjj1999999999999999999999999999999999999999999999999999999999999999999999999"}, "commit"=>"Save Blog post", "id"=>"4"}
+  [1m[35mBlogPost Load (0.1ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "blog_posts" SET "post" = ?, "updated_at" = ? WHERE "blog_posts"."id" = ?  [["post", "jjjjjjjjjjjjjj1999999999999999999999999999999999999999999999999999999999999999999999999"], ["updated_at", "2015-07-13 08:40:04.081788"], ["id", 4]]
+  [1m[36m (96.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/blog_posts/4
+Completed 302 Found in 104ms (ActiveRecord: 97.3ms)
+
+
+Started GET "/blog_posts/4" for 127.0.0.1 at 2015-07-13 14:10:04 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mBlogPost Load (0.1ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered blog_posts/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 14:10:09 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts"[0m
+  Rendered blog_posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 14:12:52 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35mBlogPost Load (0.5ms)[0m  SELECT "blog_posts".* FROM "blog_posts"
+  Rendered blog_posts/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 14:12:52 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 14:12:52 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 14:12:52 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 14:12:52 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 14:12:52 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 14:12:52 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 14:12:52 +0530
+
+
+Started GET "/blog_posts/4" for 127.0.0.1 at 2015-07-13 14:13:00 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered blog_posts/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 14:21:28 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/_form.html.erb (2.3ms)
+  Rendered blog_posts/new.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"blog_posts", :id=>nil} missing required keys: [:id]):
+    1: <%= form_for :blog_post, url: blog_post_path(@blog_post), method: :patch do |f| %>
+    2:  
+    3:   <% if @blog_post.errors.any? %>
+    4:     <div id="error_explanation">
+  app/views/blog_posts/_form.html.erb:1:in `_app_views_blog_posts__form_html_erb___4163003429691855302_70285175727060'
+  app/views/blog_posts/new.html.erb:9:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285175948200'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.2ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 14:21:28 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/_form.html.erb (3.2ms)
+  Rendered blog_posts/new.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"blog_posts", :id=>nil} missing required keys: [:id]):
+    1: <%= form_for :blog_post, url: blog_post_path(@blog_post), method: :patch do |f| %>
+    2:  
+    3:   <% if @blog_post.errors.any? %>
+    4:     <div id="error_explanation">
+  app/views/blog_posts/_form.html.erb:1:in `_app_views_blog_posts__form_html_erb___4163003429691855302_70285172248820'
+  app/views/blog_posts/new.html.erb:9:in `_app_views_blog_posts_new_html_erb__2998373693132240473_70285172516840'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.5ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 14:27:24 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 14:30:10 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/_form.html.erb (4.2ms)
+  Rendered blog_posts/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 14:30:10 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 14:30:10 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 14:30:10 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 14:30:10 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 14:30:10 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 14:30:10 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 14:30:10 +0530
+
+
+Started GET "/blog_posts/new" for 127.0.0.1 at 2015-07-13 14:30:14 +0530
+Processing by BlogPostsController#new as HTML
+  Rendered blog_posts/_form.html.erb (3.1ms)
+  Rendered blog_posts/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 14:31:00 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT "blog_posts".* FROM "blog_posts"
+  Rendered blog_posts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts/2/edit" for 127.0.0.1 at 2015-07-13 14:31:02 +0530
+Processing by BlogPostsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered blog_posts/_form.html.erb (6.2ms)
+  Rendered blog_posts/edit.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 86ms (Views: 84.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 14:31:08 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35mBlogPost Load (0.5ms)[0m  SELECT "blog_posts".* FROM "blog_posts"
+  Rendered blog_posts/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/blog_posts/3/edit" for 127.0.0.1 at 2015-07-13 14:31:11 +0530
+Processing by BlogPostsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered blog_posts/_form.html.erb (3.0ms)
+  Rendered blog_posts/edit.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 14:31:14 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35mBlogPost Load (0.3ms)[0m  SELECT "blog_posts".* FROM "blog_posts"
+  Rendered blog_posts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blog_posts/4/edit" for 127.0.0.1 at 2015-07-13 14:31:17 +0530
+Processing by BlogPostsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBlogPost Load (0.1ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered blog_posts/_form.html.erb (2.0ms)
+  Rendered blog_posts/edit.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 14:31:19 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35mBlogPost Load (0.3ms)[0m  SELECT "blog_posts".* FROM "blog_posts"
+  Rendered blog_posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 14:36:12 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[36mBlogPost Load (0.3ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts"[0m
+  Rendered blog_posts/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 38ms (Views: 35.2ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/blog_posts/1" for 127.0.0.1 at 2015-07-13 14:36:18 +0530
+Processing by BlogPostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kZnUV5tdzmXDjwkOhidGybBlDwn79OWs0/YyrxwQZ7fQagNvppT1Se9whETdHjDwXWIEq2aEeIRcizsJjxOs2w==", "id"=>"1"}
+  [1m[35mBlogPost Load (0.5ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "blog_posts" WHERE "blog_posts"."id" = ?  [["id", 1]]
+  [1m[36m (130.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/blog_posts
+Completed 302 Found in 135ms (ActiveRecord: 131.2ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 14:36:18 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT "blog_posts".* FROM "blog_posts"
+  Rendered blog_posts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 14:36:21 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[36mBlogPost Load (0.4ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts"[0m
+  Rendered blog_posts/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateComments (20150713091229)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateComments (20150713091229)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateComments (20150713091229)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateComments (20150713091229)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "commenter" varchar, "body" text, "blog_post_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_comments_on_blog_post_id" ON "comments" ("blog_post_id")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150713091229"]]
+  [1m[36m (101.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_blog_post_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_blog_post_id' AND type='index'
+[0m
+
+
+Started GET "/blog_posts" for 127.0.0.1 at 2015-07-13 15:44:35 +0530
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by BlogPostsController#index as HTML
+  [1m[36mBlogPost Load (0.7ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts"[0m
+  Rendered blog_posts/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 139ms (Views: 133.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 15:44:35 +0530
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 15:44:35 +0530
+
+
+Started GET "/blog_posts/3" for 127.0.0.1 at 2015-07-13 15:44:38 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered blog_posts/show.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 56ms (Views: 54.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/blog_posts/3" for 127.0.0.1 at 2015-07-13 15:44:42 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered blog_posts/show.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 61ms (Views: 58.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/blog_posts/3/comments" for 127.0.0.1 at 2015-07-13 15:44:57 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ETWKp7lDgWnHtuGlfekIHRMzcJxO+kTsWs5GyFlMaHtQxl2fhIq6RetJbO8m0H4k/jR7PtOK2cTVs09uyk+jFw==", "comment"=>{"commenter"=>"ssz", "body"=>"hi"}, "commit"=>"Create Comment", "blog_post_id"=>"3"}
+  [1m[35mBlogPost Load (0.1ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 3]]
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms)
+
+NoMethodError (undefined method `comments' for nil:NilClass):
+  app/controllers/comments_controller.rb:4:in `create'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (30.4ms)
+
+
+Started POST "/blog_posts/3/comments" for 127.0.0.1 at 2015-07-13 15:45:22 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ETWKp7lDgWnHtuGlfekIHRMzcJxO+kTsWs5GyFlMaHtQxl2fhIq6RetJbO8m0H4k/jR7PtOK2cTVs09uyk+jFw==", "comment"=>{"commenter"=>"ssz", "body"=>"hi"}, "commit"=>"Create Comment", "blog_post_id"=>"3"}
+  [1m[36mBlogPost Load (0.1ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("commenter", "body", "blog_post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commenter", "ssz"], ["body", "hi"], ["blog_post_id", 3], ["created_at", "2015-07-13 10:15:22.177924"], ["updated_at", "2015-07-13 10:15:22.177924"]]
+  [1m[35m (100.0ms)[0m  commit transaction
+Completed 500 Internal Server Error in 128ms (ActiveRecord: 101.4ms)
+
+NoMethodError (undefined method `article_path' for #<CommentsController:0x007fd915d8cc00>):
+  app/controllers/comments_controller.rb:5:in `create'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.5ms)
+
+
+Started POST "/blog_posts/3/comments" for 127.0.0.1 at 2015-07-13 15:45:36 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ETWKp7lDgWnHtuGlfekIHRMzcJxO+kTsWs5GyFlMaHtQxl2fhIq6RetJbO8m0H4k/jR7PtOK2cTVs09uyk+jFw==", "comment"=>{"commenter"=>"ssz", "body"=>"hi"}, "commit"=>"Create Comment", "blog_post_id"=>"3"}
+  [1m[36mBlogPost Load (0.1ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("commenter", "body", "blog_post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commenter", "ssz"], ["body", "hi"], ["blog_post_id", 3], ["created_at", "2015-07-13 10:15:36.616534"], ["updated_at", "2015-07-13 10:15:36.616534"]]
+  [1m[35m (103.9ms)[0m  commit transaction
+Completed 500 Internal Server Error in 129ms (ActiveRecord: 105.2ms)
+
+NoMethodError (undefined method `article_path' for #<CommentsController:0x007fd915b37338>):
+  app/controllers/comments_controller.rb:5:in `create'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.5ms)
+
+
+Started POST "/blog_posts/3/comments" for 127.0.0.1 at 2015-07-13 15:46:00 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ETWKp7lDgWnHtuGlfekIHRMzcJxO+kTsWs5GyFlMaHtQxl2fhIq6RetJbO8m0H4k/jR7PtOK2cTVs09uyk+jFw==", "comment"=>{"commenter"=>"ssz", "body"=>"hi"}, "commit"=>"Create Comment", "blog_post_id"=>"3"}
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("commenter", "body", "blog_post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commenter", "ssz"], ["body", "hi"], ["blog_post_id", 3], ["created_at", "2015-07-13 10:16:00.172513"], ["updated_at", "2015-07-13 10:16:00.172513"]]
+  [1m[35m (119.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/blog_posts/3
+Completed 302 Found in 141ms (ActiveRecord: 121.4ms)
+
+
+Started GET "/blog_posts/3" for 127.0.0.1 at 2015-07-13 15:46:00 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBlogPost Load (0.1ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered blog_posts/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 15:46:00 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 15:46:00 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 15:46:00 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 15:46:00 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 15:46:00 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 15:46:00 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 15:46:00 +0530
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 15:46:00 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 15:46:00 +0530
+
+
+Started POST "/blog_posts/3/comments" for 127.0.0.1 at 2015-07-13 15:46:11 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GOhc9vjCO8a6DxISDwdSRwhYdGUIYDhe6EUq5AFzBKJZG4vOxQsA6pbwn1hUPiR+5V9/x5UQpXZnOCNCknDPzg==", "comment"=>{"commenter"=>"ssz", "body"=>"hi"}, "commit"=>"Create Comment", "blog_post_id"=>"3"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("commenter", "body", "blog_post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["commenter", "ssz"], ["body", "hi"], ["blog_post_id", 3], ["created_at", "2015-07-13 10:16:11.049925"], ["updated_at", "2015-07-13 10:16:11.049925"]]
+  [1m[36m (170.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/blog_posts/3
+Completed 302 Found in 177ms (ActiveRecord: 170.8ms)
+
+
+Started GET "/blog_posts/3" for 127.0.0.1 at 2015-07-13 15:46:11 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mBlogPost Load (0.1ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered blog_posts/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/blog_posts/3" for 127.0.0.1 at 2015-07-13 15:47:06 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered blog_posts/show.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `comments' for nil:NilClass):
+    20: </p>
+    21: 
+    22: <h2>Comments</h2>
+    23: <% @article.comments.each do |comment| %>
+    24:   <p>
+    25:     <strong>Commenter:</strong>
+    26:     <%= comment.commenter %>
+  app/views/blog_posts/show.html.erb:23:in `_app_views_blog_posts_show_html_erb___852111404685684980_43724560'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.8ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.3ms)
+
+
+Started GET "/blog_posts/3" for 127.0.0.1 at 2015-07-13 15:47:27 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."blog_post_id" = ?[0m  [["blog_post_id", 3]]
+  Rendered blog_posts/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blog_posts/3" for 127.0.0.1 at 2015-07-13 15:47:58 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."blog_post_id" = ?[0m  [["blog_post_id", 3]]
+  Rendered blog_posts/show.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 15:47:59 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-13 15:47:59 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-13 15:47:59 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-13 15:47:59 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-13 15:47:59 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 15:47:59 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-13 15:47:59 +0530
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-13 15:47:59 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-13 15:47:59 +0530
+
+
+Started GET "/blog_posts/3" for 127.0.0.1 at 2015-07-13 15:48:03 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mBlogPost Load (0.1ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."blog_post_id" = ?[0m  [["blog_post_id", 3]]
+  Rendered blog_posts/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blog_posts/3" for 127.0.0.1 at 2015-07-13 15:48:19 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."blog_post_id" = ?[0m  [["blog_post_id", 3]]
+  Rendered blog_posts/show.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 58ms (Views: 55.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/blog_posts/3/comments" for 127.0.0.1 at 2015-07-13 15:48:37 +0530
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K8aFbbBHAXsv0fp9S14aTDavjcPmlhdW6zI+yL3zbwFqNVJVjY46VwMudzcQZ2x126iGYXvmin5kTzduLvCkbQ==", "comment"=>{"commenter"=>"yo yo", "body"=>"nice one"}, "commit"=>"Create Comment", "blog_post_id"=>"3"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("commenter", "body", "blog_post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["commenter", "yo yo"], ["body", "nice one"], ["blog_post_id", 3], ["created_at", "2015-07-13 10:18:37.675031"], ["updated_at", "2015-07-13 10:18:37.675031"]]
+  [1m[36m (183.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/blog_posts/3
+Completed 302 Found in 190ms (ActiveRecord: 184.4ms)
+
+
+Started GET "/blog_posts/3" for 127.0.0.1 at 2015-07-13 15:48:37 +0530
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."blog_post_id" = ?[0m  [["blog_post_id", 3]]
+  Rendered blog_posts/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.3ms)
