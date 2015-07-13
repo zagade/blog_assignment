@@ -9,4 +9,6 @@ def create
     def comment_params
       params.require(:comment).permit(:commenter, :body)
     end
+    def test
+    end
 end
