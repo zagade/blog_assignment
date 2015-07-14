@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  post 'register/newuser'
+  post 'register/login'
+  post 'register/submit'
+  resources :register
 
 get "blog_posts/search"
 post "blog_posts/results"
