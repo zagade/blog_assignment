@@ -1,0 +1,21 @@
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+    <th>Category</th>
+  </tr>
+ 
+  <% @blog_post.each do |blog_post| %>
+    <tr>
+      <td><%= blog_post.title %></td>
+      <td><%= blog_post.post %></td>
+      <td><%= blog_post.category %></td>
+      <td><%= link_to 'Show', blog_post_path(blog_post) %></td>
+      <td><%= link_to 'Edit', edit_blog_post_path(blog_post) %></td>
+      <td><%= link_to 'Destroy', blog_post_path(blog_post),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>
+<%= link_to 'New Post', new_blog_post_path %>

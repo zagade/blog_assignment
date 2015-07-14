@@ -43,6 +43,21 @@ class BlogPostsController < ApplicationController
 	  redirect_to blog_posts_path
 	end
 
+	#searching 
+	def search
+		
+	end
+
+	def results
+		#render plain: params[:blog_post].inspect
+		if params[:blog_post][:search_by].eql?("category")
+			@blog_post=BlogPost.where("category like ?" ,"%#{params[:blog_post][:search_phrase]}%")
+		elsif params[:blog_post][:search_by].eql?("title")
+		 	 @blog_post=BlogPost.where("title like ?" ,"%#{params[:blog_post][:search_phrase]}%")
+		end
+	end
+
+
 	private
 	def blog_post_params
 		params.require(:blog_post).permit(:title,:post,:category)

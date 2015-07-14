@@ -2534,3 +2534,230 @@ Processing by BlogPostsController#show as HTML
   [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."blog_post_id" = ?[0m  [["blog_post_id", 3]]
   Rendered blog_posts/show.html.erb within layouts/application (5.0ms)
 Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blog_posts/search" for 127.0.0.1 at 2015-07-14 11:04:01 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BlogPostsController#show as HTML
+  Parameters: {"id"=>"search"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT  "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 128ms (ActiveRecord: 1.0ms)
+
+ActiveRecord::RecordNotFound (Couldn't find BlogPost with 'id'=search):
+  app/controllers/blog_posts_controller.rb:36:in `show'
+
+
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.5ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/infibeam/.rvm/gems/ruby-2.1.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.2ms)
+
+
+Started GET "/blog_posts/search" for 127.0.0.1 at 2015-07-14 11:05:06 +0530
+Processing by BlogPostsController#search as HTML
+  Rendered blog_posts/search.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 334ms (Views: 333.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-14 11:05:07 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-14 11:05:07 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-14 11:05:07 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-14 11:05:07 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-14 11:05:07 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-14 11:05:07 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-14 11:05:07 +0530
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-14 11:05:07 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-14 11:05:07 +0530
+
+
+Started GET "/blog_posts/search" for 127.0.0.1 at 2015-07-14 11:09:28 +0530
+Processing by BlogPostsController#search as HTML
+  Rendered blog_posts/search.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-14 11:09:29 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-14 11:09:29 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-14 11:09:29 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-14 11:09:29 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-14 11:09:29 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-14 11:09:29 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-14 11:09:29 +0530
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-14 11:09:29 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-14 11:09:29 +0530
+
+
+Started POST "/blog_posts/results" for 127.0.0.1 at 2015-07-14 11:09:32 +0530
+Processing by BlogPostsController#results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5yyxkdfhfyus+N5J9THyvMzGcla+u+nI0Vf4MSe1F2Gm32ap6ihEB4AHUwOuCISFIcF59CPLdOBeKvGXtLbcDQ==", "blog_post"=>{"search_phrase"=>"jsadhfjsah", "search_by"=>"title"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts/results" for 127.0.0.1 at 2015-07-14 11:09:38 +0530
+Processing by BlogPostsController#results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5yyxkdfhfyus+N5J9THyvMzGcla+u+nI0Vf4MSe1F2Gm32ap6ihEB4AHUwOuCISFIcF59CPLdOBeKvGXtLbcDQ==", "blog_post"=>{"search_phrase"=>"jsadhfjsah", "search_by"=>"category"}, "commit"=>"Save Blog post"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog_posts/search" for 127.0.0.1 at 2015-07-14 11:11:50 +0530
+Processing by BlogPostsController#search as HTML
+  Rendered blog_posts/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog_posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-14 11:11:50 +0530
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-14 11:11:50 +0530
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-14 11:11:50 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-14 11:11:50 +0530
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-14 11:11:50 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-14 11:11:50 +0530
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-14 11:11:50 +0530
+
+
+Started GET "/assets/blog_posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-14 11:11:50 +0530
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-14 11:11:50 +0530
+
+
+Started POST "/blog_posts/results" for 127.0.0.1 at 2015-07-14 11:11:52 +0530
+Processing by BlogPostsController#results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m7c7TzR+Um6dPNtz7RaJAYDLspZD6NWaJOA3xsc+41baROx3CbdpQrHDVjm2L/84bcy5NN6YSLKrnT5gVD0oOg==", "blog_post"=>{"search_phrase"=>"jsadhfjsah", "search_by"=>"category"}, "commit"=>"Search"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts/results" for 127.0.0.1 at 2015-07-14 11:15:06 +0530
+Processing by BlogPostsController#results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m7c7TzR+Um6dPNtz7RaJAYDLspZD6NWaJOA3xsc+41baROx3CbdpQrHDVjm2L/84bcy5NN6YSLKrnT5gVD0oOg==", "blog_post"=>{"search_phrase"=>"jsadhfjsah", "search_by"=>"category"}, "commit"=>"Search"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog_posts/" for 127.0.0.1 at 2015-07-14 11:21:09 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[36mBlogPost Load (0.3ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts"[0m
+  Rendered blog_posts/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 39ms (Views: 35.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/blog_posts/results" for 127.0.0.1 at 2015-07-14 11:21:23 +0530
+Processing by BlogPostsController#results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m7c7TzR+Um6dPNtz7RaJAYDLspZD6NWaJOA3xsc+41baROx3CbdpQrHDVjm2L/84bcy5NN6YSLKrnT5gVD0oOg==", "blog_post"=>{"search_phrase"=>"AB", "search_by"=>"title"}, "commit"=>"Search"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT "blog_posts".* FROM "blog_posts" WHERE (title like '%AB%')
+  Rendered blog_posts/results.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/blog_posts/results" for 127.0.0.1 at 2015-07-14 11:21:32 +0530
+Processing by BlogPostsController#results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m7c7TzR+Um6dPNtz7RaJAYDLspZD6NWaJOA3xsc+41baROx3CbdpQrHDVjm2L/84bcy5NN6YSLKrnT5gVD0oOg==", "blog_post"=>{"search_phrase"=>"g", "search_by"=>"title"}, "commit"=>"Search"}
+  [1m[36mBlogPost Load (0.3ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts" WHERE (title like '%g%')[0m
+  Rendered blog_posts/results.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blog_posts/" for 127.0.0.1 at 2015-07-14 11:21:36 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT "blog_posts".* FROM "blog_posts"
+  Rendered blog_posts/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/blog_posts/results" for 127.0.0.1 at 2015-07-14 11:21:42 +0530
+Processing by BlogPostsController#results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m7c7TzR+Um6dPNtz7RaJAYDLspZD6NWaJOA3xsc+41baROx3CbdpQrHDVjm2L/84bcy5NN6YSLKrnT5gVD0oOg==", "blog_post"=>{"search_phrase"=>"1", "search_by"=>"title"}, "commit"=>"Search"}
+  [1m[36mBlogPost Load (0.3ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts" WHERE (title like '%1%')[0m
+  Rendered blog_posts/results.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blog_posts/" for 127.0.0.1 at 2015-07-14 11:21:51 +0530
+Processing by BlogPostsController#index as HTML
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT "blog_posts".* FROM "blog_posts"
+  Rendered blog_posts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts/search" for 127.0.0.1 at 2015-07-14 11:22:04 +0530
+Processing by BlogPostsController#search as HTML
+  Rendered blog_posts/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/blog_posts/results" for 127.0.0.1 at 2015-07-14 11:22:12 +0530
+Processing by BlogPostsController#results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Gy8m3UIMaE7Ubg3ZcPB6cBj1YAstSlq+fBPAShGMT4da3PHlf8VTYviRgJMryQxJ9fJrqbA6x5bzbsnsgo+E6w==", "blog_post"=>{"search_phrase"=>"health", "search_by"=>"category"}, "commit"=>"Search"}
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts" WHERE (category like '%health%')[0m
+  Rendered blog_posts/results.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/blog_posts/results" for 127.0.0.1 at 2015-07-14 11:22:19 +0530
+Processing by BlogPostsController#results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Gy8m3UIMaE7Ubg3ZcPB6cBj1YAstSlq+fBPAShGMT4da3PHlf8VTYviRgJMryQxJ9fJrqbA6x5bzbsnsgo+E6w==", "blog_post"=>{"search_phrase"=>"Health", "search_by"=>"category"}, "commit"=>"Search"}
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT "blog_posts".* FROM "blog_posts" WHERE (category like '%Health%')
+  Rendered blog_posts/results.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/blog_posts/results" for 127.0.0.1 at 2015-07-14 11:22:29 +0530
+Processing by BlogPostsController#results as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Gy8m3UIMaE7Ubg3ZcPB6cBj1YAstSlq+fBPAShGMT4da3PHlf8VTYviRgJMryQxJ9fJrqbA6x5bzbsnsgo+E6w==", "blog_post"=>{"search_phrase"=>"abc", "search_by"=>"title"}, "commit"=>"Search"}
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts" WHERE (title like '%abc%')[0m
+  Rendered blog_posts/results.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.2ms)

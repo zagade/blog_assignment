@@ -1,0 +1,15 @@
+<%= form_for :blog_post, url: blog_posts_results_path do |f| %>
+  <p>
+    <%= f.label :"Search phrase" %><br>
+    <%= f.text_field :"search_phrase" %>
+  </p>
+ 
+
+  <p>
+    <%= f.label :"Search By" %><br>
+    <%= f.select(:"search_by", [['title'], ['category'] ]) %>
+  </p>
+  <p>
+    <%= f.submit("Search") %>
+  </p>
+<% end %>
