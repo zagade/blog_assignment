@@ -1,0 +1,20 @@
+<%= form_for :register , url:register_index_path , method: 'post'  do |f| %>
+  <p>
+    <%= f.label :Name %>
+    <%= f.text_field :name %><br>
+  </p>
+ 
+  <p>
+    <%= f.label :Email %>
+    <%= f.email_field(:address) %><br>
+  </p>
+  <p>
+    <%= f.label :Password %>
+    <%= f.password_field(:password) %><br>
+  </p>
+
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

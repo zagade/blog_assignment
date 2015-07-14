@@ -1,0 +1,15 @@
+<%= form_for :login , url:register_submit_path , method: 'post'  do |f| %>
+  <p>
+    <%= f.label :Email %>
+    <%= f.email_field(:address) %><br>
+  </p>
+  <p>
+    <%= f.label :Password %>
+    <%= f.password_field(:password) %><br>
+  </p>
+
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
