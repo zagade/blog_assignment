@@ -4,7 +4,7 @@ class RegisterController < ApplicationController
   	
   end
 
-  def newuser
+  def new
   end
 
   def login
@@ -12,7 +12,7 @@ class RegisterController < ApplicationController
 
   def submit
     temp = params[:login]
-    @login = User.where("address = ? and password = ?", temp[:address], temp[:password])
+    @login = User.where("emailID = ? and password = ?", temp[:emailID], temp[:password])
   end
 
   def create
@@ -24,6 +24,6 @@ class RegisterController < ApplicationController
 
   private
   	def user_params
-  		params.require(:register).permit(:name, :address, :password)  		
+  		params.require(:register).permit(:name, :emailID, :password)  		
   	end
 end
